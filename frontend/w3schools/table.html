@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<h2>Nested Table</h2>
+<p>An example of how to create a table inside a table:</p>
+
+<table>
+  <tr>
+    <td>Cell</td>
+    <td>Nested Table
+      <table>
+        <tr>
+          <td>Cell 1</td>
+        </tr>
+        <tr>
+          <td>Cell 2</td>
+        </tr>
+        <tr>
+          <td>Cell 3</td>
+        </tr>
+        <tr>
+          <td>Cell 4
+            <table>
+                <td>Cell 4.5
+                    <table>
+                        <td>Cell 4.75</td>
+                    </table>
+                </td>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <td>Cell*2
+        <table>
+            <td>Cell*2.5</td>
+            <td>Cell*2.75</td>
+        </table>
+
+      </td>
+    </td>
+  </tr>
+</table>
+<table>
+    <td>Cell*3
+        <td>Cell*3.5
+            <td>Cell*3.75</td>
+        </td>
+    </td>
+</table>
+
+</body>
+</html>

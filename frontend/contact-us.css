@@ -1,0 +1,134 @@
+.contact-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-info .fa-envelope, .fa-phone{
+    font-size: 2rem;
+    color: #00CD;
+    background-color: #FFF;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191970;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 0;
+}
+
+.contact-container .contact-components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.contact-container .contact-components .contact-contents{
+    padding: 2rem 4rem;
+}
+
+.contact-container .contact-components .contact-contents h2, h1{
+    color: #FFF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-container .contact-components .contact-contents p{
+color: #FFF;
+font-size: 1.2rem;
+margin-bottom: 20px;
+}
+
+.contact-container .contact-components .contact-img{
+    width: 80%;
+}
+
+.contact-container .contact-components .contact-img img{
+    width:  100%;
+}
+
+.form-input{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form{
+    width: 50%;
+    padding: 20px;
+    bottom: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.contact-form-container{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.contact-form-components{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.contact-form-img{
+    width: 50%;
+}
+
+.contact-form-img img{
+    width: 100%;
+}
+
+.form-btn{
+    margin-top: 20px;
+    text-align: right;
+}
+.form-btn button{
+    border-radius: 10px;
+    background-color: #FF691E;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.contact-accordion-container{
+    background-color: midnightblue;
+    padding: 2rem 0;
+}
+
+.contact-accordion-components{
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 4rem;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 225px;
+  height: 145px;
+  background-color: orange;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 5;
+}
+
+@keyframes example {
+  0%   {background-color:orange; left:0px; top:0px;}
+  25%  {background-color:grey; left: 200px; top:200px;}
+  50%  {background-color:indigo; left:200px; top:20px;}
+  75%  {background-color:hotpink; left:0px; top:200px;}
+  100% {background-color:transparent; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<p>The animation-iteration-count property can be set to infinite to let the animation run for ever:</p>
+
+<div style="font-family: verdana;font-size: 1.45rem;">296</div>
+
+</body>
+</html>
+
